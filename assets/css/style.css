@@ -1,0 +1,41 @@
+h1 {
+  margin-bottom: 0px;
+}
+
+.navbarLinks {
+  color: black;
+}
+
+.row.content {
+  height: auto;
+}
+
+.name {
+  margin-left: 10px;
+  font-family: 'Mr Dafoe', cursive;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.mainblock {
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
+
+.aboutme {
+  margin-top: 70px;
+  margin-bottom: 25px;
+  padding: 10px 25px 20px 25px;
+  
+}
+
+.sidenav {
+  background: url("/assets/images/escheresque_ste.png")
+}
+
+body {
+  background: url("/assets/images/escheresque_ste.png")
+}
