@@ -33,9 +33,9 @@ h1 {
 }
 
 .sidenav {
-  background: url("/assets/images/escheresque_ste.png")
+  background: url("../images/escheresque_ste.png")
 }
 
 body {
-  background: url("/assets/images/escheresque_ste.png")
+  background: url("../images/escheresque_ste.png")
 }
