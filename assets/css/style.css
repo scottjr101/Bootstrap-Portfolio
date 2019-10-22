@@ -1,5 +1,6 @@
 h1 {
   margin-bottom: 0px;
+  font-size: 2.5rem;
 }
 
 .navbarLinks {
@@ -33,9 +34,9 @@ h1 {
 }
 
 .sidenav {
-  background: url("/assets/images/escheresque_ste.png")
+  background: url("../images/escheresque_ste.png")
 }
 
 body {
-  background: url("/assets/images/escheresque_ste.png")
+  background: url("../images/escheresque_ste.png")
 }
