@@ -20,30 +20,21 @@ h1 {
   border-radius: 0;
 }
 
-.portborderDiv {
-  margin-bottom: 50px;
-  padding: 10px 10px 10px 10px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.25);
-}
-
 .portDiv {
-  border-radius: 3px;
+  margin-bottom: 70px;
+  text-align: center;
 }
-
-.amborderDiv {
-  margin-top: 70px;
-  margin-bottom: 25px;
-  padding: 10px 10px 10px 10px;
-  border-radius: 3px;
+.cardDiv {
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.25);
 }
-
 .aboutmeDiv {
+  margin-top: 70px;
+  margin-bottom: 70px;
   padding: 10px 25px 20px 25px;
-  border-radius: 3px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.25);
+
 }
 
 .aboutmeH1 {
