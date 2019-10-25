@@ -9,11 +9,12 @@
   <link rel="stylesheet" href="https://bootswatch.com/4/sandstone/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe|Permanent+Marker&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8d88fe742e.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <div class="shadows">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<body data-spy="scroll" data-target="#navbar-example">
+  <div class="shadows sticky-top">
+    <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand name">
         <h1>Scott Ladd</h1>
       </a>
@@ -24,14 +25,14 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="nav navbar ml-auto content-right">
           <li class="nav-item active">
-            <a class="nav-link navbarLinks" style="font-size: 16px;" href="#">Home
+            <a class="nav-link navbarLinks" style="font-size: 16px;" href="#About-Me">About Me
               <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navbarLinks" style="font-size: 16px;" href="#">Portfolio</a>
+            <a class="nav-link navbarLinks" style="font-size: 16px;" href="#Portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navbarLinks" style="font-size: 16px;" href="#">Contact</a>
+            <a class="nav-link navbarLinks" style="font-size: 16px;" href="#Contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -43,11 +44,11 @@
       <div class=" col-sm-2">
       </div>
       <!-- Main content area -->
-      <div class="col-sm-8">
+      <div id="About-Me" class="col-sm-8">
         <div class="container text-center bg-light aboutmeDiv" style="margin-top: 70px;">
           <h1 class="font-weight-bold bg-light aboutmeH1">About Me</h1>
 
-          <hr>
+          <hr class="my-3">
 
           <div class="card border-0 bg-light" style="max-width: auto;">
             <div class="row">
@@ -86,7 +87,7 @@
       <div class="col-sm-1">
       </div>
       <!-- main column -->
-      <div class="col-sm-10">
+      <div id="Portfolio" class="col-sm-10">
         <div class="container" style="text-align: center; margin-bottom: 50px;">
           <div class="row">
             <!-- Portfolio cards -->
@@ -162,60 +163,41 @@
       </div>
       <!-- end of row -->
     </div>
-    <!-- new row -->
-    <div class="row">
-      <div class=" col-sm-2">
-      </div>
-      <!-- Main content area -->
-      <div class="col-sm-8">
-        <div class="container text-center bg-light aboutmeDiv">
-          <h1 class="font-weight-bold bg-light aboutmeH1">Contact</h1>
-
-          <hr>
-
-          <div class="card border-0 bg-light" style="max-width: auto;">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="assets/images/Profile_pic.jpg" class="card-img" alt="Scott Ladd">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <p style="letter-spacing: 1px;">
-                    Hello, my name is Scott Ladd. I’m from Syracuse, New York originally, but I have been living in
-                    Atlanta
-                    since I was 13 years old. I have an older brother and sister, both of whom are married. I’ve been
-                    married since 2014 to my wonderful wife and best friend, Mallory. We have 4 dogs and 3 cats
-                    between
-                    us.
-                    Never a dull moment at our house!</p>
-                  <p style="letter-spacing: 1px;">
-                    Before my career as web developer began, I was a double ASE Master Automobile/Heavy Duty Truck
-                    technician, and then a Kohler generator technician. Most of my time was spent on the computer,
-                    whether
-                    it was looking up diagnostic information, using diagnostic software or just doing paperwork. I
-                    realized
-                    that was the part of the day I enjoyed the most so here I am.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- right side about me -->
-      <div class="col-sm-2">
-      </div>
-    </div>
-    <!-- end of row -->
+    <!-- <h6>Copyright&copy;</h6> -->
   </div>
 
-  <footer class="container-fluid d-flex align-items-center justify-content-center bg-light" style="padding: 13px;">
-    <h6>Copyright&copy;</h6>
-    <a href="https://github.com/scottjr101">
-      <img class="mr-2 ml-2" style="height: 54px; width: 64px;" src="assets/images/Octocat.png"
-        alt="Github Profile"></a>
-    <a href="https://reddit.com/u/Scottjr101">
-      <img style="height: 52px; width: 52px;" src="assets/images/reddit-logo.png" alt="Reddit Profile"></a>
+  <footer id="Contact" class="container-fluid bg-light" style="padding: 10px;">
+    <div class="row indent">
+      <div class="container-fluid d-flex align-items-center justify-content-center">
+        <span style="font-size: 4em;">
+          <a href="https://github.com/scottjr101">
+            <i class="fab fa-github-square"></i></a>
+        </span>
+        <span class="ml-3 mr-3" style="font-size: 4em;">
+          <a href="https://reddit.com/u/Scottjr101">
+            <i class="fab fa-reddit"></i></a>
+        </span>
+        <span style="font-size: 4em;">
+          <a href="https://www.linkedin.com/in/scott-ladd-1988abc/">
+            <i class="fab fa-linkedin"></i></a>
+        </span>
+      </div>
+    </div>
+    <div class="row indent">
+      <div class="container-fluid d-flex align-items-center justify-content-center">
+        <span style="font-size: 1em;">
+          <i class="fas fa-envelope"> <a href="mailto:scottjr101@gmail.com">Scottjr101@gmail.com</i></a>
+        </span>
+        <span class="ml-3 mr-3" style="font-size: 1em;">
+          <i class="fas fa-mobile"> (404) 435-7803</i></span>
+        <span style="font-size: 1em;">
+          <i class="fas fa-file"> <a
+              href="https://drive.google.com/file/d/1pCwZVesIsgtTGhMQZfdIybJQrKEVyHpgWowrvyZ44L4/view">My resume</i></a>
+        </span>
+      </div>
+    </div>
   </footer>
+
 </body>
 
 <!-- bootstrap JS and JQuery -->
